@@ -2,7 +2,7 @@
 
 **Structural Diversity, Contribution-Aware Meta-Learning, and Dynamic Kernel Selection for Quantum Classification**
 
-This repository contains the original Jupyter Notebook and its standalone Python implementation, together with setup, citation, licence, and reproducibility documentation. The supplied manuscript DOCX is included in the companion package but is not currently committed as a binary file in this repository.
+This repository contains the original Jupyter Notebook and its standalone Python implementation, together with setup, citation, licence, and reproducibility documentation. 
 
 ## Contents
 
