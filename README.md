@@ -69,7 +69,7 @@ The script prints per-run metrics, summary statistics, selection frequencies, an
 
 ## Important reproducibility caveat
 
-The manuscript states that preprocessing is fitted on training data only. In the supplied implementation, `clean_numeric_features()` performs median imputation during dataset loading, before the outer train/test split, for the Heart Disease, Diabetes, Banknote, and Sonar loaders. This means information from the eventual test partition can influence those imputation medians. A later train-split imputer/scaler/PCA does not reverse that earlier use of full-dataset information. See `REPRODUCIBILITY_NOTES.md`; correct the pipeline and rerun affected experiments before claiming a strictly leakage-free evaluation.
+The experimental protocol specifies that preprocessing is fitted on the training partition only. However, in the supplied implementation, `clean_numeric_features()` performs median imputation during dataset loading, before the outer train/test split, for the Heart Disease, Diabetes, Banknote, and Sonar loaders. This means information from the eventual test partition can influence those imputation medians. A later train-split imputer/scaler/PCA does not reverse that earlier use of full-dataset information. See `REPRODUCIBILITY_NOTES.md`; correct the pipeline and rerun affected experiments before claiming a strictly leakage-free evaluation.
 
 The script passed syntax compilation during package preparation; a complete Qiskit/Aer experiment run was not performed in that environment.
 
