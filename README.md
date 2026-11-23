@@ -75,7 +75,7 @@ The script passed syntax compilation during package preparation; a complete Qisk
 
 ## Results interpretation
 
-The manuscript reports dataset-dependent behavior and states that the classical RBF SVM outperformed the tested quantum-kernel configurations across the five datasets. AMQKE should therefore be described as a framework for adaptive analysis and integration of heterogeneous simulated quantum-kernel representations, not as evidence of universal quantum advantage.
+ dataset-dependent behavior and states that the classical RBF SVM outperformed the tested quantum-kernel configurations across the five datasets. AMQKE should therefore be described as a framework for adaptive analysis and integration of heterogeneous simulated quantum-kernel representations, not as evidence of universal quantum advantage.
 
 ## Citation and license
 
