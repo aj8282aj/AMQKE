@@ -2,13 +2,13 @@
 
 **Structural Diversity, Contribution-Aware Meta-Learning, and Dynamic Kernel Selection for Quantum Classification**
 
-This repository contains the AMQKE manuscript, original Jupyter Notebook, and standalone Python implementation.
+This repository contains the original Jupyter Notebook and its standalone Python implementation, together with setup, citation, licence, and reproducibility documentation. The supplied manuscript DOCX is included in the companion package but is not currently committed as a binary file in this repository.
 
 ## Contents
 
 - `AMQKE.ipynb` — supplied Jupyter Notebook.
 - `AMQKE.py` — Python script exported from the notebook code cell.
-- `AMQKE_v25_paper_.docx` — manuscript document (available in the companion package; see note below).
+- Manuscript (`AMQKE_v25_paper_.docx`) — supplied in the companion ZIP package; not currently stored in this GitHub repository.
 - `requirements.txt` — pinned dependency ranges.
 - `CITATION.cff` — software citation metadata.
 - `LICENSE` — MIT License.
