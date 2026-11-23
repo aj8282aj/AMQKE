@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the AMQKE manuscript and identify the software version or commit used."
+title: "Adaptive Multi-Quantum Kernel Ensemble (AMQKE)"
+version: "v25"
+type: software
+license: MIT
+repository-code: "https://github.com/aj8282aj/AMQKE"
+authors:
+  - family-names: Janati
+    given-names: Arash
+  - family-names: Shayegan
+    given-names: Mohammad Javad
+abstract: "Implementation of an adaptive multi-quantum-kernel ensemble using Z, ZZ, and PauliXY feature maps, structural complementarity, cross-dataset contribution-aware meta-learning, dynamic kernel selection, and controlled depolarizing-noise simulation."
+keywords:
+  - quantum machine learning
+  - quantum kernels
+  - quantum support vector machine
+  - multiple kernel learning
+  - kernel alignment
+  - structural diversity
+  - meta-learning
+  - depolarizing noise
