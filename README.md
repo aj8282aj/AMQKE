@@ -8,7 +8,6 @@ This repository contains the original Jupyter Notebook and its standalone Python
 
 - `AMQKE.ipynb` — supplied Jupyter Notebook.
 - `AMQKE.py` — Python script exported from the notebook code cell.
-- Manuscript (`AMQKE_v25_paper_.docx`) — supplied in the companion ZIP package; not currently stored in this GitHub repository.
 - `requirements.txt` — pinned dependency ranges.
 - `CITATION.cff` — software citation metadata.
 - `LICENSE` — MIT License.
