@@ -4,7 +4,7 @@ This note records implementation details observed in the supplied `AMQKE.ipynb` 
 
 ## 1. Preprocessing and potential data leakage
 
-The manuscript's Section 4.2 states that preprocessing is fitted on training data only. In the current code, however, `clean_numeric_features()` replaces missing-value markers, expands categorical variables, and calls `SimpleImputer(strategy="median").fit_transform(X)` while the full dataset is being loaded. This helper is used by the Heart Disease, Diabetes, Banknote, and Sonar loaders. The main evaluation later fits another imputer, scaler, and PCA on the training partition, but the earlier dataset-wide imputation has already used information from the eventual test partition.
+The experimental protocol describes preprocessing as being fitted on training data only. In the current code, however, `clean_numeric_features()` replaces missing-value markers, expands categorical variables, and calls `SimpleImputer(strategy="median").fit_transform(X)` while the full dataset is being loaded. This helper is used by the Heart Disease, Diabetes, Banknote, and Sonar loaders. The main evaluation later fits another imputer, scaler, and PCA on the training partition, but the earlier dataset-wide imputation has already used information from the eventual test partition.
 
 For a strictly leakage-controlled rerun, modify the loaders to retain missing values (and handle categorical schema consistently), then fit all imputation, encoding, scaling, and dimensionality reduction within the training partition. Results may change after this correction; the existing tables should not be represented as results from the corrected pipeline unless experiments are rerun.
 
